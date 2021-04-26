@@ -19,7 +19,7 @@ class ClarovisionCrawler(CrawlSpider):
         # 'CLOSESPIDER_PAGECOUNT': 20
     }
     
-    allowed_domains = ['infobae.com']
+    allowed_domains = ['clarovideo.com']
     download_delay = 1
     start_urls=['https://www.clarovideo.com']
     rules=(
